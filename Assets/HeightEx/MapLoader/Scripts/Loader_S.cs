@@ -9,11 +9,9 @@ namespace HeightEx
 {
     public class Loader_S : JobComponentSystem
     {
-        public string cachePath;
-        public int _tileSize;
-        const int TILE_MIN_ZOOM_LEVEL = 5; // min zoom level to show
         private EndSimulationEntityCommandBufferSystem BufferSystem;
         private EntityQuery _entityQuery;
+        private float height = 0.1f;
 
         protected override void OnCreate()
         {
@@ -62,9 +60,11 @@ namespace HeightEx
 
             //读取本地数据
             byte[] bb = System.IO.File.ReadAllBytes(filePath);
-            ti.heightTexture = new Texture2D(256, 256);
-            ti.heightTexture.LoadImage(bb);
-            if (ti.heightTexture.width <= 16)
+            int solution = 16;
+            ti.heightTexture = new Texture2D(solution, solution);
+            ti.heightTexture.filterMode = FilterMode.Bilinear;
+            ImageConversion.LoadImage(ti.heightTexture, bb);
+            if (ti.heightTexture.width <= 4)
             {
                 // Invalid texture in local cache, retry
                 if (System.IO.File.Exists(filePath))
@@ -75,6 +75,11 @@ namespace HeightEx
                 return false;
             }
 
+//            if (ti.zoomLevel % 3 != 0)
+//            {
+//                return false;
+//            }
+
             //生成Mesh
             var meshFilter = ti.gameObject.GetComponent<MeshFilter>();
             if (!meshFilter)
@@ -82,10 +87,16 @@ namespace HeightEx
                 return false;
             }
 
-            MeshNum.UpdateMesh(ti, meshFilter, Vector2.one / 4, Vector2.one * 4);
-            //meshFilter.mesh = HeightMapTools.SetMeshHeight(meshFilter.mesh, ti.heightTexture,
-            //    new float3x2(Vector3.zero, Vector3.one));
 
+//            ti.heightTexture.filterMode = FilterMode.Bilinear;
+//            ti.heightTexture.Resize(solution, solution);
+//            ti.heightTexture.Apply();
+            MeshNum.UpdateMesh(ti, meshFilter, Vector2.one / (solution+1f), Vector2.one *  (solution+1f));
+            Debug.Log(solution);
+            Vector3 size = new Vector3(1, 1, Mathf.Pow(0.5f,2));
+            meshFilter.mesh =
+                HeightMapTools.SetMeshHeight(meshFilter.mesh, ti.heightTexture, new float3x2(Vector3.zero, size));
+            ti.gameObject.GetComponent<TileInfoMono>().heightTexture = ti.heightTexture;
             ti.loadStatus = TILE_LOAD_STATUS.Loaded;
             //TODO：处理极点
             return true;

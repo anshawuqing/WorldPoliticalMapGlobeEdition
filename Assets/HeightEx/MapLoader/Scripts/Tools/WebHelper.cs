@@ -92,7 +92,8 @@ public class WebHelper : MonoBehaviour
             var len = fileStream.Read(bytes, 0, length);
             if (len == length)
             {
-                return ImageConversion.LoadImage(texture2D, bytes);
+                bool result = ImageConversion.LoadImage(texture2D, bytes);
+                return result;
             }
         }
 
@@ -109,13 +110,13 @@ public class WebHelper : MonoBehaviour
     public static string GetLocalFilePathForUrl( TileInfo ti)
     {
         string url = GetWebUrl(ti);
-        string filePath = Application.streamingAssetsPath + "/HeightCache";
+        string filePath = Application.persistentDataPath + "/HeightCache";
         if (!Directory.Exists(filePath))
         {
             Directory.CreateDirectory(filePath);
         }
 
-        filePath += "/z" + ti.zoomLevel + "_x" + ti.x + "_y" + ti.y + "_" + url.GetHashCode().ToString() + ".jpg";
+        filePath += "/z" + ti.zoomLevel + "_x" + ti.x + "_y" + ti.y + "_" + url.GetHashCode().ToString() + ".jpeg";
         return filePath;
     }
 }

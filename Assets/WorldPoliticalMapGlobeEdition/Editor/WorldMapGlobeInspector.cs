@@ -723,7 +723,7 @@ namespace WPM {
 				_map.allowUserZoom = EditorGUILayout.Toggle (_map.allowUserZoom, GUILayout.Width (40));
 				if (_map.allowUserZoom) {
 					GUILayout.Label ("Speed");
-					_map.mouseWheelSensitivity = EditorGUILayout.Slider (_map.mouseWheelSensitivity, 0.01f, 3);
+					_map.mouseWheelSensitivity = EditorGUILayout.Slider (_map.mouseWheelSensitivity, 0.1f, 3);
 					EditorGUILayout.EndHorizontal ();
 					EditorGUILayout.BeginHorizontal ();
 					GUILayout.Label ("   Invert Direction", GUILayout.Width (120));

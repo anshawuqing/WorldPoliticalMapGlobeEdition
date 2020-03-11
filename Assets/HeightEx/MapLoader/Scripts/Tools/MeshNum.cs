@@ -72,7 +72,7 @@ public class MeshNum : MonoBehaviour
         {
             latLonBR = MapLoader.instance.WorldMapGlobe.GetLatLonFromTile(ti.x + 1, ti.y + 1, ti.zoomLevel);
         }
-        
+
         //计算顶点及UV
         List<Vector3> vertices = new List<Vector3>();
         List<Vector2> uvs = new List<Vector2>();
@@ -99,18 +99,29 @@ public class MeshNum : MonoBehaviour
             {
                 scale.y = y / (_gridSize.y);
 
-                if (latlonY1.y-latlonY2.y>180)
+                if (latlonY1.y - latlonY2.y > 180)
                 {
                     latlonY1.y += 360;
                 }
 
-                if (latlonY2.y-latlonY1.y>180)
+                if (latlonY2.y - latlonY1.y > 180)
                 {
                     latlonY2.y += 360;
                 }
+
                 latlon.y = Mathf.Lerp(latlonY1.y, latlonY2.y, scale.y);
                 vertices.Add(Conversion.GetSpherePointFromLatLon(latlon)); //添加到顶点数组
-                uvs.Add(new Vector2((latlon.y + 180) / 360f, (latlon.x + 90) / 180f)); //添加到纹理坐标数组
+                Vector2 meshUV;
+                if (ti.zoomLevel < WorldMapGlobe.TILE_MIN_ZOOM_LEVEL)
+                {
+                    meshUV = new Vector2((latlon.y + 180) / 360f, (latlon.x + 90) / 180f);
+                }
+                else
+                {
+                    meshUV = new Vector2(scale.y,1-scale.x);
+                }
+
+                uvs.Add(meshUV); //添加到纹理坐标数组
             }
         }
 
@@ -147,10 +158,25 @@ public class MeshNum : MonoBehaviour
             }
         }
 
+        Color[] meshColor;
+        meshColor = new Color[vertices.Count];
+        Color[] meshColors = new Color[]
+        {
+            new Color(1, 0, 0, 0),
+            new Color(0, 1, 0, 0),
+            new Color(0, 0, 1, 0),
+            new Color(0, 0, 0, 1)
+        };
+        for (int k = 0; k < vertices.Count; k++)
+        {
+            meshColor[k] = meshColors[ti.subquadIndex];
+        }
+            
         //
         mesh.SetVertices(vertices); //设置顶点
         mesh.SetUVs(0, uvs); //设置UV
         mesh.SetIndices(indexs, MeshTopology.Triangles, 0); //设置顶点序列
+        mesh.colors = meshColor;
         mesh.RecalculateNormals();
         mesh.RecalculateBounds();
         //mesh.RecalculateTangents();

@@ -317,7 +317,7 @@ namespace WPM {
 		
 		
 		[SerializeField]
-		[Range(0.01f, 3)]
+		[Range(0.1f, 3)]
 		float
 			_mouseWheelSensitivity = 0.5f;
 		

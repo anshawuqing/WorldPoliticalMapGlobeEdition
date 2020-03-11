@@ -5,7 +5,6 @@ using System.Threading;
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
-using Unity.Mathematics;
 
 namespace WPM
 {
@@ -60,7 +59,7 @@ namespace WPM
             public GameObject tilesContainer;
         }
 
-        const int TILE_MIN_ZOOM_LEVEL = 5; // min zoom level to show
+        public const int TILE_MIN_ZOOM_LEVEL = 5; // min zoom level to show
         const string PREFIX_MIN_ZOOM_LEVEL = "z5_";
         const float TILE_MAX_QUEUE_TIME = 10; // maximum seconds in loading queue
         const string TILES_ROOT = "Tiles";
@@ -114,7 +113,7 @@ namespace WPM
             new Vector2(0, 0.99f)
         };
 
-        Color color1000 = new Color(1, 0, 0, 0);
+        public Color color1000 = new Color(1, 0, 0, 0);
         int _concurrentLoads;
         int _currentZoomLevel;
         int _webDownloads, _cacheLoads;
@@ -123,7 +122,7 @@ namespace WPM
         string _tileServerCopyrightNotice;
         string _tileLastError;
         DateTime _tileLastErrorDate;
-        internal Dictionary<int, TileInfo> cachedTiles;
+        public Dictionary<int, TileInfo> cachedTiles;
         ZoomLevelInfo[] zoomLevelsInfo = new ZoomLevelInfo[20];
         List<TileInfo> loadQueue;
         bool shouldCheckTiles, resortTiles;
@@ -135,11 +134,6 @@ namespace WPM
         FileInfo[] cachedFiles;
         int gcCount;
         float currentTileSize;
-
-        internal TileInfo GetTileInfo(int index)
-        {
-            return cachedTiles[index];
-        }
 
         void InitTileSystem()
         {
@@ -370,17 +364,16 @@ namespace WPM
                     if (ti.zoomLevel <= currentZoomLevel && ti.visible)
                     {
                         ti.loadStatus = TILE_LOAD_STATUS.Loading;
-                        
                         if (_tilePreloadTiles && currentZoomLevel == TILE_MIN_ZOOM_LEVEL &&
                             ti.zoomLevel == currentZoomLevel && ReloadTextureFromCacheOrMarkForDownload(ti))
                         {
                             loadQueue[k] = null;
                             cleanQueue = true;
-
                             continue;
                         }
 
                         _concurrentLoads++;
+                        StartCoroutine(LoadTileContentBackground(ti));
                         if (_concurrentLoads >= _tileMaxConcurrentDownloads)
                         {
                             break;
@@ -644,7 +637,6 @@ namespace WPM
                     ti.hasAnimated = true;
                     ti.animationFinished = true;
                     ti.renderer.sharedMaterial = ti.parent.normalMat;
-
                 }
                 else if (ti.zoomLevel > TILE_MIN_ZOOM_LEVEL)
                 {
@@ -656,7 +648,7 @@ namespace WPM
             }
         }
 
-        internal int GetTileHashCode(int x, int y, int zoomLevel)
+        public int GetTileHashCode(int x, int y, int zoomLevel)
         {
             ZoomLevelInfo zi = zoomLevelsInfo[zoomLevel];
             if (zi == null)
@@ -820,15 +812,9 @@ namespace WPM
 
             ti.renderer = CreateObject(parentObj.transform, "Tile", tileCorners, tileIndices, meshUV, tileMat,
                 ti.subquadIndex);
-
             ti.gameObject = ti.renderer.gameObject;
-            //string url1 = WebHelper.GetWebUrl(ti);
-            //Debug.Log(url);
-//            WebHelper.instance.GetAsset(
-//                url1,
-//                WebHelper.GetLocalFilePathForUrl(ti),
-//                MapLoader.instance.AddLoadEx,
-//                ti);
+            ti.gameObject.AddComponent<TileInfoMono>().TileInfo = ti;
+
             ti.created = true;
         }
 
@@ -930,6 +916,13 @@ namespace WPM
             }
 
             ti.loadStatus = TILE_LOAD_STATUS.Loaded;
+            string url1 = WebHelper.GetWebUrl(ti);
+            //Debug.Log(url);
+            WebHelper.instance.GetAsset(
+                url1,
+                WebHelper.GetLocalFilePathForUrl(ti),
+                MapLoader.instance.AddLoadEx,
+                ti);
             if (loadQueue.Contains(ti))
             {
                 loadQueue.Remove(ti);
@@ -1015,9 +1008,8 @@ namespace WPM
             }
         }
 
-        // TODO: 此处为开启加载的锚点
         Renderer CreateObject(Transform parent, string name, Vector3[] vertices, int[] indices, Vector2[] uv,
-            Material mat, int subquadIndex, Texture2D HeightMap = null)
+            Material mat, int subquadIndex)
         {
             GameObject obj = new GameObject(name);
             obj.transform.SetParent(parent, false);
@@ -1041,14 +1033,12 @@ namespace WPM
             }
 
             mesh.colors = meshColor;
-
             MeshFilter mf = obj.AddComponent<MeshFilter>();
             mf.sharedMesh = mesh;
             MeshRenderer mr = obj.AddComponent<MeshRenderer>();
             mr.sharedMaterial = mat;
             mr.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
             mr.receiveShadows = false;
-
             return mr;
         }
 

@@ -22,11 +22,11 @@ public class MapLoader : MonoBehaviour
         manager = World.DefaultGameObjectInjectionWorld.EntityManager;
         TileInfos = WorldMapGlobe.cachedTiles;
     }
-
+    
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     internal void AddLoadEx(TileInfo ti)
@@ -34,9 +34,9 @@ public class MapLoader : MonoBehaviour
         var index =WorldMapGlobe.GetTileHashCode(ti.x , ti.y, ti.zoomLevel);
         HeightMapIndex mapIndex = new HeightMapIndex();
         mapIndex.hasCode = index;
-        var meshnum = ti.gameObject.AddComponent<MeshNum>();
-        meshnum._cellSize = Vector2.one / 4;
-        meshnum._gridSize = Vector2.one * 4;
+        //var meshnum = ti.gameObject.AddComponent<MeshNum>();
+        //meshnum._cellSize = Vector2.one / 4;
+        //meshnum._gridSize = Vector2.one * 4;
         manager.AddComponentData<HeightMapIndex>(manager.CreateEntity(), mapIndex);
     }
     

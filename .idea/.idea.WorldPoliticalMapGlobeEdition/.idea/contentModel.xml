@@ -55,6 +55,7 @@
               <e p="Tools" t="Include">
                 <e p="HeightMapTools.cs" t="Include" />
                 <e p="MeshNum.cs" t="Include" />
+                <e p="TileInfoMono.cs" t="Include" />
                 <e p="WebHelper.cs" t="Include" />
               </e>
             </e>
