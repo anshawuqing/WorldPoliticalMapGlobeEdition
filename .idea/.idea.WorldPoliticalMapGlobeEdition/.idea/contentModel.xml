@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Administrator\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Administrator\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_WorldPoliticalMapGlobeEdition.-1458045558.00" t="ExcludeRecursive" />
+    <e p="E:\GitHub\WorldPoliticalMapGlobeEdition" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Deformers Assets" t="Include">
+          <e p="DeformersScripts" t="Include">
+            <e p="ExtraScripts" t="Include">
+              <e p="ColorizeGrid.cs" t="Include" />
+              <e p="EffectorVal.cs" t="Include" />
+            </e>
+            <e p="Mesh Deformers" t="Include">
+              <e p="BETABlendShapeDeformer.cs" t="Include" />
+              <e p="CurveShapeDeformer.cs" t="Include" />
+              <e p="FlareDeformer.cs" t="Include" />
+              <e p="ImageDeformer.cs" t="Include" />
+              <e p="RippleDeformer.cs" t="Include" />
+              <e p="SimpleBlendShape.cs" t="Include" />
+              <e p="SineDeformer.cs" t="Include" />
+              <e p="TwistDeformer.cs" t="Include" />
+            </e>
+            <e p="Objects Deformer" t="Include">
+              <e p="ObjectRotateEffectorDeformer.cs" t="Include" />
+              <e p="ObjectScaleEffectorDeformer.cs" t="Include" />
+              <e p="ObjectsImageDeformer.cs" t="Include" />
+              <e p="ObjectsRipple.cs" t="Include" />
+              <e p="ObjectsSine.cs" t="Include" />
+              <e p="ObjectTransformEffectorDeformer.cs" t="Include" />
+            </e>
+            <e p="Skinned Mesh Deformers" t="Include">
+              <e p="SkinnedMeshAnimCurveDeformer.cs" t="Include" />
+              <e p="SkinnedMeshFlareDeformer.cs" t="Include" />
+              <e p="skinnedMeshRipple.cs" t="Include" />
+              <e p="SkinnedMeshSine.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="CreateGridMD.cs" t="Include" />
+            <e p="Grid3DMD.cs" t="Include" />
+            <e p="LinkComponents.cs" t="Include" />
+          </e>
+        </e>
+        <e p="HeightEx" t="Include">
+          <e p="colorRamp.shader" t="Include" />
+          <e p="MapLoader" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="Loader_S.cs" t="Include" />
+              <e p="LoadingQueue.cs" t="Include" />
+              <e p="LoadingThread.cs" t="Include" />
+              <e p="MapLoader.cs" t="Include" />
+              <e p="Tools" t="Include">
+                <e p="HeightMapTools.cs" t="Include" />
+                <e p="MeshNum.cs" t="Include" />
+                <e p="WebHelper.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="meshCreater" t="Include">
+            <e p="meshCreater.cs" t="Include" />
+            <e p="MyCameraControl.cs" t="Include" />
+          </e>
+          <e p="vertexColor.shader" t="Include" />
+        </e>
+        <e p="WorldPoliticalMapGlobeEdition" t="Include">
+          <e p="Demos" t="Include">
+            <e p="01 GeneralDemo" t="Include">
+              <e p="ColorHSV.cs" t="Include" />
+              <e p="ColorPicker.cs" t="Include" />
+              <e p="Demo.cs" t="Include" />
+              <e p="GUIResizer.cs" t="Include" />
+            </e>
+            <e p="02 SpriteMarkers" t="Include">
+              <e p="AddMarkerScript.cs" t="Include" />
+              <e p="SpriteClickHandler.cs" t="Include" />
+            </e>
+            <e p="03 ConstraintArea" t="Include">
+              <e p="ConstraintArea.cs" t="Include" />
+            </e>
+            <e p="04 CircleMarkers" t="Include">
+              <e p="AddCircleMarkerScript.cs" t="Include" />
+            </e>
+            <e p="05 Sorting Cities" t="Include">
+              <e p="SortingCities.cs" t="Include" />
+            </e>
+            <e p="06 City Travel" t="Include">
+              <e p="DemoCityTravel.cs" t="Include" />
+              <e p="GlobePosAnimator.cs" t="Include" />
+            </e>
+            <e p="07 Earth Graffiti" t="Include">
+              <e p="DemoGraffiti.cs" t="Include" />
+            </e>
+            <e p="08 Rectangle Selection" t="Include">
+              <e p="DemoRectangleSelection.cs" t="Include" />
+            </e>
+            <e p="09 SlippyMap" t="Include">
+              <e p="DemoSlippyMap.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Editor" t="Include">
+            <e p="Tools" t="Include">
+              <e p="HiddenObjects.cs" t="Include" />
+            </e>
+            <e p="WorldMapAbout.cs" t="Include" />
+            <e p="WorldMapCalculatorInspector.cs" t="Include" />
+            <e p="WorldMapDecoratorInspector.cs" t="Include" />
+            <e p="WorldMapEditorInspector.cs" t="Include" />
+            <e p="WorldMapGlobeInspector.cs" t="Include" />
+            <e p="WorldMapProvincesEqualizer.cs" t="Include" />
+            <e p="WorldMapTickerInspector.cs" t="Include" />
+          </e>
+          <e p="README.txt" t="Include" />
+          <e p="Resources" t="Include">
+            <e p="Geodata" t="Include">
+              <e p="cities10.txt" t="Include" />
+              <e p="countries10.txt" t="Include" />
+              <e p="countries110.txt" t="Include" />
+              <e p="provinces10.txt" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="UnlitAlphaSingleColor.shader" t="Include" />
+              <e p="UnlitCities.shader" t="Include" />
+              <e p="UnlitCutoutOverlay.shader" t="Include" />
+              <e p="UnlitEarth16K.shader" t="Include" />
+              <e p="UnlitEarth16KScenic.shader" t="Include" />
+              <e p="UnlitEarth16KScenicCityLights.shader" t="Include" />
+              <e p="UnlitEarth16KScenicScatter.shader" t="Include" />
+              <e p="UnlitEarth16KScenicScatterCityLights.shader" t="Include" />
+              <e p="UnlitEarthGlow.shader" t="Include" />
+              <e p="UnlitEarthGlow2.shader" t="Include" />
+              <e p="UnlitEarthScenic.shader" t="Include" />
+              <e p="UnlitEarthScenicCityLights.shader" t="Include" />
+              <e p="UnlitEarthScenicScatter.shader" t="Include" />
+              <e p="UnlitEarthScenicScatterCityLights.shader" t="Include" />
+              <e p="UnlitEarthSingleColor.shader" t="Include" />
+              <e p="UnlitGUIText.shader" t="Include" />
+              <e p="UnlitHighlight.shader" t="Include" />
+              <e p="UnlitOutline.shader" t="Include" />
+              <e p="UnlitOverlay.shader" t="Include" />
+              <e p="UnlitOverlayHexGrid.shader" t="Include" />
+              <e p="UnlitOverlayInverted.shader" t="Include" />
+              <e p="UnlitSingleColorCursor.shader" t="Include" />
+              <e p="UnlitSingleColorMasked.shader" t="Include" />
+              <e p="UnlitSingleColorOrder1.shader" t="Include" />
+              <e p="UnlitSingleColorOrder1Alpha.shader" t="Include" />
+              <e p="UnlitSingleColorOrder2.shader" t="Include" />
+              <e p="UnlitSingleColorOrder2Alpha.shader" t="Include" />
+              <e p="UnlitSingleColorOrder2Outline.shader" t="Include" />
+              <e p="UnlitSingleTexture.shader" t="Include" />
+              <e p="UnlitSurfacesColor.shader" t="Include" />
+              <e p="UnlitSurfacesColorAlpha.shader" t="Include" />
+              <e p="UnlitSurfacesTexture.shader" t="Include" />
+              <e p="UnlitTickersBackground.shader" t="Include" />
+              <e p="UnlitTileOverlay.shader" t="Include" />
+              <e p="UnlitTileTrans.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Calculator" t="Include">
+              <e p="WorldMapCalculator.cs" t="Include" />
+            </e>
+            <e p="Core" t="Include">
+              <e p="Behaviours" t="Include">
+                <e p="CityScaler.cs" t="Include" />
+                <e p="LabelAnimator.cs" t="Include" />
+                <e p="MountPointScaler.cs" t="Include" />
+                <e p="RectangleSelection.cs" t="Include" />
+                <e p="TileAnimator.cs" t="Include" />
+                <e p="TileInfoEx.cs" t="Include" />
+              </e>
+              <e p="Drawing" t="Include">
+                <e p="CityBlinker.cs" t="Include" />
+                <e p="Drawing.cs" t="Include" />
+                <e p="LineMarkerAnimator.cs" t="Include" />
+                <e p="LineRenderer2.cs" t="Include" />
+                <e p="MarkerBlinker.cs" t="Include" />
+                <e p="SurfaceBlinker.cs" t="Include" />
+                <e p="Triangulator.cs" t="Include" />
+              </e>
+              <e p="Entities" t="Include">
+                <e p="AdminEntity.cs" t="Include" />
+                <e p="City.cs" t="Include" />
+                <e p="Country.cs" t="Include" />
+                <e p="IAdminEntity.cs" t="Include" />
+                <e p="MountPoint.cs" t="Include" />
+                <e p="Province.cs" t="Include" />
+                <e p="Region.cs" t="Include" />
+              </e>
+              <e p="Internal" t="Include">
+                <e p="WPMCities.cs" t="Include" />
+                <e p="WPMCountries.cs" t="Include" />
+                <e p="WPMEarth.cs" t="Include" />
+                <e p="WPMInternal.cs" t="Include" />
+                <e p="WPMMountPoints.cs" t="Include" />
+                <e p="WPMProvinces.cs" t="Include" />
+                <e p="WPMTiles.cs" t="Include" />
+              </e>
+              <e p="Tools" t="Include">
+                <e p="Misc.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Decorator" t="Include">
+              <e p="CountryDecorator.cs" t="Include" />
+              <e p="CountryDecoratorGroupInfo.cs" t="Include" />
+              <e p="WorldMapDecorator.cs" t="Include" />
+            </e>
+            <e p="MapEditor" t="Include">
+              <e p="DouglasPeucker.cs" t="Include" />
+              <e p="PolygonClipping" t="Include">
+                <e p="Connector.cs" t="Include" />
+                <e p="Geom" t="Include">
+                  <e p="Contour.cs" t="Include" />
+                  <e p="Line2D.cs" t="Include" />
+                  <e p="Point.cs" t="Include" />
+                  <e p="Polygon.cs" t="Include" />
+                  <e p="PolygonSanitizer.cs" t="Include" />
+                  <e p="Rectangle.cs" t="Include" />
+                </e>
+                <e p="PointChain.cs" t="Include" />
+                <e p="PolygonClipper.cs" t="Include" />
+                <e p="Sweepline" t="Include">
+                  <e p="EventQueue.cs" t="Include" />
+                  <e p="SweepEvent.cs" t="Include" />
+                  <e p="SweepEventSet.cs" t="Include" />
+                </e>
+              </e>
+              <e p="WorldMapEditor.cs" t="Include" />
+              <e p="WorldMapEditorCities.cs" t="Include" />
+              <e p="WorldMapEditorCountry.cs" t="Include" />
+              <e p="WorldMapEditorMountPoints.cs" t="Include" />
+              <e p="WorldMapEditorProvince.cs" t="Include" />
+            </e>
+            <e p="PolyTri" t="Include">
+              <e p="P2T.cs" t="Include" />
+              <e p="P2T_AUTHORS.txt" t="Include" />
+              <e p="P2T_LICENSE.txt" t="Include" />
+              <e p="README.txt" t="Include" />
+              <e p="Triangulation" t="Include">
+                <e p="Delaunay" t="Include">
+                  <e p="DelaunayTriangle.cs" t="Include" />
+                  <e p="Sweep" t="Include">
+                    <e p="AdvancingFront.cs" t="Include" />
+                    <e p="AdvancingFrontNode.cs" t="Include" />
+                    <e p="DTSweep.cs" t="Include" />
+                    <e p="DTSweepBasin.cs" t="Include" />
+                    <e p="DTSweepConstraint.cs" t="Include" />
+                    <e p="DTSweepContext.cs" t="Include" />
+                    <e p="DTSweepEdgeEvent.cs" t="Include" />
+                    <e p="DTSweepPointComparator.cs" t="Include" />
+                    <e p="PointOnEdgeException.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="ITriangulatable.cs" t="Include" />
+                <e p="Orientation.cs" t="Include" />
+                <e p="Polygon" t="Include">
+                  <e p="Contour.cs" t="Include" />
+                  <e p="Polygon.cs" t="Include" />
+                  <e p="PolygonPoint.cs" t="Include" />
+                  <e p="PolygonSet.cs" t="Include" />
+                  <e p="PolygonUtil.cs" t="Include" />
+                </e>
+                <e p="Sets" t="Include">
+                  <e p="ConstrainedPointSet.cs" t="Include" />
+                  <e p="PointSet.cs" t="Include" />
+                </e>
+                <e p="TriangulationAlgorithm.cs" t="Include" />
+                <e p="TriangulationConstraint.cs" t="Include" />
+                <e p="TriangulationContext.cs" t="Include" />
+                <e p="TriangulationMode.cs" t="Include" />
+                <e p="TriangulationPoint.cs" t="Include" />
+                <e p="Util" t="Include">
+                  <e p="PointGenerator.cs" t="Include" />
+                  <e p="PolygonGenerator.cs" t="Include" />
+                  <e p="TriangulationUtil.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Utility" t="Include">
+                <e p="FixedArray3.cs" t="Include" />
+                <e p="FixedBitArray3.cs" t="Include" />
+                <e p="MathUtil.cs" t="Include" />
+                <e p="Point2D.cs" t="Include" />
+                <e p="Point2DList.cs" t="Include" />
+                <e p="Rect2D.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Tickers" t="Include">
+              <e p="TickerBand.cs" t="Include" />
+              <e p="TickerText.cs" t="Include" />
+              <e p="TickerTextAnimator.cs" t="Include" />
+              <e p="WorldMapTicker.cs" t="Include" />
+            </e>
+            <e p="WorldMapGlobe.cs" t="Include" />
+            <e p="WorldMapGlobeCities.cs" t="Include" />
+            <e p="WorldMapGlobeConversion.cs" t="Include" />
+            <e p="WorldMapGlobeCountries.cs" t="Include" />
+            <e p="WorldMapGlobeEarthAndContinents.cs" t="Include" />
+            <e p="WorldMapGlobeGrid.cs" t="Include" />
+            <e p="WorldMapGlobeInteraction.cs" t="Include" />
+            <e p="WorldMapGlobeMarkersAndLines.cs" t="Include" />
+            <e p="WorldMapGlobeMountPoints.cs" t="Include" />
+            <e p="WorldMapGlobeProvinces.cs" t="Include" />
+            <e p="WorldMapGlobeTiles.cs" t="Include" />
+            <e p="WorldMapGlobeTileServers.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="WorldPoliticalMapGlobeEdition.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>

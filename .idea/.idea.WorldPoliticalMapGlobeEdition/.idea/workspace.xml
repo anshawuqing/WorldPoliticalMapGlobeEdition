@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7c62ace8-7fdf-4e02-8e61-96297468fc49" name="默认更改列表" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WorldPoliticalMapGlobeEdition" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Behaviours/TileInfoEx.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0567A7E-3D82-48AD-A252-603BAEB6BA06/cc/c2b97393/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/MapEditor/PolygonClipping/Connector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/27D14BE2-9278-4F01-BC72-50F3525755F2/b6/e7ebea78/ImageConversion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Internal/WPMEarth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Resources/Shaders/UnlitSingleTexture.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Internal/WPMCountries.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/WorldMapGlobeConversion.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/LoadingThread.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/WorldMapGlobeInteraction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Internal/WPMInternal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/WorldMapGlobeTileServers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0567A7E-3D82-48AD-A252-603BAEB6BA06/59/f1b834a3/FileStream.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Decorator/WorldMapDecorator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Entities/Province.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Editor/WorldMapGlobeInspector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Internal/WPMTiles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/WorldMapGlobeTiles.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Loader_S.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3CAB2293-F07A-49C2-BA7B-C989AB7F232C/b9/771cf3d7/Invalid_ForEach_Signature_See_ForEach_Documentatio.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/AE22A4E8-F83C-41D6-9684-AE7F557133D9/ad/e5dfb5a2/HttpWebRequest.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/MapLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/WebHelper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Demos/08 Rectangle Selection/DemoRectangleSelection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/LoadingQueue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/meshCreater/meshCreater.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Demos/01 GeneralDemo/Demo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Calculator/WorldMapCalculator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.7.0-preview.19/Unity.Entities/EntityCommandBuffer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.7.0-preview.19/Unity.Entities/Types/TypeManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/MeshNum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Demos/09 SlippyMap/DemoSlippyMap.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.7.0-preview.19/Unity.Scenes.Hybrid/SubScene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Resources/Shaders/UnlitEarth16KScenicScatterCityLights.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Deformers Assets/DeformersScripts/Mesh Deformers/ImageDeformer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Tools/Misc.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Resources/Shaders/UnlitEarthGlow.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Resources/Shaders/UnlitSingleColorCursor.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/HeightMapTools.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/WorldMapGlobe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/94C5F4C3-8CDC-42D2-B006-F8BADEF04394/00/17c6fb4a/Renderer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.entities@0.7.0-preview.19/Unity.Entities/CodeGeneratedJobForEach/LambdaJobDescription.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Behaviours/RectangleSelection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E0567A7E-3D82-48AD-A252-603BAEB6BA06/78/bae67b08/StreamWriter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Behaviours/CityScaler.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/WorldMapGlobeInteraction.cs" />
+        <option value="$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Editor/WorldMapGlobeInspector.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/NewUnlitShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/NewBehaviourScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/meshCreater.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MyCameraControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/VirtualTexture/TestVirtualTexture.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/MapLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/WorldMapGlobeConversion.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/MapRender.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/HeightMapConversion.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/EarthPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/MapInteral.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/HeightMapExtend.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/LoadingThread.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/LoadingQueue.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/WebHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/HeightMapTools.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/LoadingQueue.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/LoadingThread.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/WebHelper.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/MapLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/HeightMapTools.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Loader_S.cs" />
+        <option value="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/MeshNum.cs" />
+        <option value="$PROJECT_DIR$/Assets/WorldPoliticalMapGlobeEdition/Scripts/Core/Internal/WPMTiles.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YhYmHmiPflyLr6UOSKBqqKM54T" />
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="55232">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="55232" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7c62ace8-7fdf-4e02-8e61-96297468fc49" name="默认更改列表" comment="" />
+      <created>1583396460874</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583396460874</updated>
+      <workItem from="1583396504709" duration="9142000" />
+      <workItem from="1583502908865" duration="5788000" />
+      <workItem from="1583542356643" duration="8000" />
+      <workItem from="1583542609483" duration="8026000" />
+      <workItem from="1583564312968" duration="4630000" />
+      <workItem from="1583582667422" duration="5972000" />
+      <workItem from="1583623023164" duration="25352000" />
+      <workItem from="1583709811312" duration="44149000" />
+      <workItem from="1583796120647" duration="524000" />
+      <workItem from="1583797175392" duration="1952000" />
+      <workItem from="1583881185501" duration="5324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" />
+    <state x="449" y="147" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1920.1080" />
+    <state width="435" height="474" key="DebuggerActiveHint" />
+    <state width="435" height="474" key="DebuggerActiveHint/1920.1080" />
+    <state x="549" y="167" key="FileChooserDialogImpl" />
+    <state x="549" y="167" key="FileChooserDialogImpl/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom" />
+    <state width="1493" height="261" key="GridCell.Tab.3.bottom/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center" />
+    <state width="1493" height="261" key="GridCell.Tab.3.center/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left" />
+    <state width="1493" height="261" key="GridCell.Tab.3.left/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right" />
+    <state width="1493" height="261" key="GridCell.Tab.3.right/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.4.bottom" />
+    <state width="1493" height="261" key="GridCell.Tab.4.bottom/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.4.center" />
+    <state width="1493" height="261" key="GridCell.Tab.4.center/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.4.left" />
+    <state width="1493" height="261" key="GridCell.Tab.4.left/1920.1080" />
+    <state width="1493" height="261" key="GridCell.Tab.4.right" />
+    <state width="1493" height="261" key="GridCell.Tab.4.right/1920.1080" />
+    <state x="392" y="102" key="RiderGenerateDialog" />
+    <state x="392" y="102" key="RiderGenerateDialog/1920.1080" />
+    <state x="406" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" />
+    <state x="406" y="27" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.1080" />
+    <state x="414" y="76" width="965" height="672" key="find.popup" />
+    <state x="414" y="76" width="965" height="672" key="find.popup/1920.1080" />
+    <state x="425" y="187" key="run.anything.popup" />
+    <state x="425" y="187" key="run.anything.popup/1920.1080" />
+    <state x="431" y="145" width="672" height="679" key="search.everywhere.popup" />
+    <state x="431" y="145" width="672" height="679" key="search.everywhere.popup/1920.1080" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/HeightMapTools.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/HeightEx/MapLoader/Scripts/Tools/HeightMapTools.cs" initialLine="13">
+            <startOffsets>
+              <option value="364" />
+            </startOffsets>
+            <endOffsets>
+              <option value="391" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="UNITY_DEBUG_RUN_CONFIGURATION">
+        <watch expression="commands" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
